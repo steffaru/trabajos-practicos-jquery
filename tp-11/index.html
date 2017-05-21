@@ -1,0 +1,46 @@
+<DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Trabajo Práctico - Jquery</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/fonts.css">
+
+</head>
+<body>
+	<section class="main-noticias">
+		<h1>Novedades</h1>
+	    <form  class="form-notis">
+	      <fieldset class="sumary-title">Artículo
+	        <label for="id-noti">Ingrese el ID de la noticia</label>
+	        <input type="text" id="id-noti" name="id-n" value="">
+	        <label for="categoria">Selecciona la categoría de su noticia</label>
+	       <select name="category" id="categoria">
+		       	<option value="Deporte">Deporte</option>
+		       	<option value="Economía">Economía</option>
+		       	<option value="Farándula">Farándula</option>
+	       </select>
+	        <label for="titulo">Ingrese el titulo de la noticia</label>
+	        <input type="text" id="titulo" name="tit" value="">
+	        <label for="descripcion">Ingrese una breve descripción</label>
+	        <textarea type="text" id="descripcion" name="des" value=""></textarea>
+	      </fieldset>
+	    </form>
+  		<div class="group-button">
+  			<button  class="boton-style" id="agregar"><b>Agregar noticia</b></button>
+  			<button class="boton-style" id="mostrar"><b>Ver todas las noticias</b></button>
+  		<select class="boton-style" name="ordenados" id="ordenar">
+		    <option value="az">Ordenar de la A - Z</option>
+		    <option value="za">Ordenar de la Z - A</option>
+		    <option value="id-asc">Ordenar por ID</option>
+  		</select>
+  		</div> 
+	</section>
+ 	<div id="noticias">
+    <!-- Las noticias se van a ir agregando aca -->
+	</div>
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/app.js"></script>
+
+</body>
+</html>
