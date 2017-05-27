@@ -25,10 +25,10 @@ var moduleNoticias = (function () {
 
 		localStorage.setItem("notis", JSON.stringify(allnoticias));
 		
-	   	$("#id-noti").val("");
-	 	$("#titulo").val("");
-	 	$("#descripcion").val("");
-	 	$("#categoria").val("Deporte");
+	  $("#id-noti").val("");
+    $("#titulo").val("");
+    $("#descripcion").val("");
+    $("#categoria").val("Deporte");
     }
   }
 
@@ -67,6 +67,10 @@ var moduleNoticias = (function () {
           if (parseInt(a.id) > parseInt(b.id))
             return 1;
           return 0;
+        break;
+
+        default "error":
+          return console.log("Seleccione alguna opción válida");
         break;
       }    
     });
