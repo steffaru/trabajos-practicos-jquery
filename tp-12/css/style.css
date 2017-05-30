@@ -1,0 +1,12 @@
+.bold-letter{
+	font-family: 'Helvetica', sans-serif;
+	font-weight: bolder;
+}
+.color-par{
+	background: lightgreen;
+	color: green;
+}
+.color-impar{
+	background: lightblue;
+	color: blue;
+}

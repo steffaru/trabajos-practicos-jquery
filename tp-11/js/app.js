@@ -69,7 +69,7 @@ var moduleNoticias = (function () {
           return 0;
         break;
 
-        default "error":
+        default:
           return console.log("Seleccione alguna opción válida");
         break;
       }    

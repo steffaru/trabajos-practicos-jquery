@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Trabajo Práctico 13 - Teléfono</title>
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>
+		<h1 class="titulo">Teléfono</h1>
+	</header>
+	<section>
+
+		<article class="nros">
+			<div id="display" value="mostrar"></div>
+			<div id="mymodal"></div>
+			<button  class="numberr" id="number1" value="1">1</button>
+			<button  class="numberr" id="number2" value="2">2</button>
+			<button  class="numberr" id="number3" value="3">3</button>
+			<button  class="numberr" id="number4" value="4">4</button>
+			<button  class="numberr" id="number5" value="5">5</button>
+			<button  class="numberr" id="number6" value="6">6</button>
+			<button  class="numberr" id="number7" value="7">7</button>
+			<button  class="numberr" id="number8" value="8">8</button>
+			<button  class="numberr" id="number9" value="9">9</button>
+			<button  class="numberr" id="number*" value="*">*</button>
+			<button  class="numberr" id="number0" value="0">0</button>
+			<button  class="numberr" id="number#" value="#">#</button>
+		</article>
+		<article class="botones">
+			<button class="llamar">
+				<span class="icon-phone"></span>
+			</button>
+			<button class="colgar">
+				<span class="icon-phone-hang-up"></span>
+			</button>
+			<button class="guardarNro" data-toggle="modal" data-target="#modalcito">
+				<span class="icon-floppy-disk"></span>
+			</button>
+
+			<!-- Modal -->
+			<div id="modalcito" class="modal" role="dialog">
+			  <div class="modal-dialog">
+
+			    <!-- Modal content-->
+			    <div class="modal-content">
+			      <div class="modal-body">
+			        <p>Se guardo el Nro.</p>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+		</article>
+		
+	</section>
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/utilidades.js"></script>
+</body>
+</html>
